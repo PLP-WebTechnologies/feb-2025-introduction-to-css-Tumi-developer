@@ -1,0 +1,52 @@
+.header {
+    border:  #f7f0f0;
+    border-style: double;
+    color: rgb(231, 14, 14);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 4px hsl(0, 21%, 95%);
+    cursor: pointer;
+}
+
+.header:hover {
+    color: hsl(240, 83%, 47%);
+    text-shadow: 0 0 3px #f2e7e7;
+}
+
+#slogan {
+    color: #f2e9ea;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px #0f0d0d;
+    padding: 5px;
+}
+
+#slogan:hover {
+    color: hsl(0, 13%, 89%);
+    text-shadow: 0 0 3px #f01010;
+}
+
+
+body {
+    background-image: url('../img/Tesla.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div {
+    position: absolute;
+    bottom: 10px;
+    margin: auto; 
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    color: hsl(240, 88%, 34%);
+    font-weight: bold;
+    text-shadow: 0 0 3px #e61010;
+  }
